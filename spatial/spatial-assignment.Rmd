@@ -2,6 +2,7 @@
 title: "Spatial Assignment"
 author: 
 output: github_document
+always_allow_html: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -27,15 +28,14 @@ We will answer this question by taking into consideration the following spatial 
 **3. Marine Protected Areas**  (vector data)  
 
 ```{r libraries, include= FALSE}
-
 library(mapview)      #interactive maps, raster + vector layers
 library(raster)       #Main raster library
 library(tidyverse)    #our old friend
 library(sf)           #to work with simple features data
 
-devtools::install_github("tidyverse/ggplot2") #installing the developer version of ggplot for the geom_sf() function
+#installing the developer version of ggplot for the geom_sf() function
+devtools::install_github("tidyverse/ggplot2") 
 library(ggplot2)
-
 ```  
 
 ## Task 1: Play with Vector Data
