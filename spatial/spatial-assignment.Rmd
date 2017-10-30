@@ -2,6 +2,7 @@
 title: "Spatial Assignment"
 author: 
 output: github_document
+always_allow_html: yes
 ---
 
 ```{r setup, include=FALSE}
