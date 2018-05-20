@@ -3,3 +3,9 @@
 .RData
 .Ruserdata
 .Rbuildignore
+*.tiff
+*.shp
+*.prj
+*.dbf
+*.shx
+.Renviron
