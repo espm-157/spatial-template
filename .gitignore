@@ -9,3 +9,14 @@
 *.dbf
 *.shx
 .Renviron
+.manifest.json
+spatial/rasters/annual_npp.tif
+spatial/rasters/average_annual_sst_2008.tif
+spatial/rasters/average_annual_sst_2009.tif
+spatial/rasters/average_annual_sst_2010.tif
+spatial/rasters/average_annual_sst_2011.tif
+spatial/rasters/average_annual_sst_2012.tif
+spatial/shapefiles/mpas_westcoast.dbf
+spatial/shapefiles/mpas_westcoast.prj
+spatial/shapefiles/mpas_westcoast.shp
+spatial/shapefiles/mpas_westcoast.shx
