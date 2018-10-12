@@ -7,7 +7,6 @@ always_allow_html: yes
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(messages = FALSE, cache = FALSE)
-piggyback::pb_pull()
 ```
 
 # Exercise 
