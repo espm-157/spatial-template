@@ -5,4 +5,4 @@
 .Rbuildignore
 .Renviron
 .manifest.json
-
+.DS_Store
