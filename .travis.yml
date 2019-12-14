@@ -4,12 +4,9 @@ language: R
 sudo: true
 cache: packages
 sudo: required
-dist: trusty
 
 addons:
   apt:
-    sources:
-      - sourceline: 'ppa:ubuntugis/ubuntugis-unstable'
     packages:
       - libudunits2-dev
       - libnetcdf-dev
