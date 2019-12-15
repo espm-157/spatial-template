@@ -28,8 +28,8 @@ To do this we are going to need the following spatial data:
 **3. Marine Protected Areas**  (vector data)  
 
 ```{r libraries, include= FALSE}
-# install.packages(c("mapview", "raster", "sf"))
-library(mapview)      #interactive maps, raster + vector layers
+# install.packages(c("tmap", "raster", "sf"))
+library(tmap)      #interactive maps, raster + vector layers
 library(raster)       #Main raster library
 library(tidyverse)    #our old friend
 library(sf)           #to work with simple features data
