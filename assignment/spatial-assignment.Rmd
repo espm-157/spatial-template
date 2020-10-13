@@ -4,6 +4,7 @@ author: "Millie Chapman (GSI)"
 output: 
   github_document:
     df_print: tibble
+    html_preview: false
 ---
 
 ```{r setup, include=FALSE}
