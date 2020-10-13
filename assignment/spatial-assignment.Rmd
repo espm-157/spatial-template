@@ -1,7 +1,9 @@
 ---
 title: "The ecological and evolutionary consequences of systemic racism"
 author: "Millie Chapman (GSI)"
-output: github_document
+output: 
+  github_document:
+    df_print: tibble
 always_allow_html: yes
 ---
 
