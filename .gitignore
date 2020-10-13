@@ -6,3 +6,6 @@
 .Renviron
 .manifest.json
 .DS_Store
+*.html
+*.tiff
+*.shp
