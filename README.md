@@ -1,5 +1,5 @@
 
-*add travis-ci badge here*
+*add github actions badge here*
 
 ## Team Members:
 
