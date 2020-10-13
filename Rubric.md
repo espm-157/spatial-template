@@ -20,8 +20,7 @@
     - Demonstrates ability to perform geospatial calculations across raster layers
     - Demonstrates ability to compute intersections or samples from map data
     - Demonstrates familiarity with a geospatial visualization framework (`tmap` or otherwise)
-    - CHALLENGE item: incorporates additional temperature data records that go beyond those provided
 - 6 pts for Module Science goals
     - Results are presented in a clean narrative that describes the scientific issues being addressed by each manipulation.  
     - Effective use of map visualization to make easily interpretable, aesthetically pleasing graphs.
-    - Discussion and reflection on possible connection to global climate change issues.  
+    - Discussion and reflection on possible connection to global change issues.  
