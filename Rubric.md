@@ -2,13 +2,13 @@
 
 ### General Rubric
 
-- 2 pt for use of git hub
+- 2 pt for use of GitHub
     - are both users pushing/pulling?
     - have they successfully dealt with merge conflicts?
     - have they updated their repository README with names and module details?
-- 2 pts for travis
+- 2 pts for GitHub Actions
     - is their build passing?
-    - is the travis badge included and displaying correctly on their .md documents
+    - is the GitHub Actions badge included and displaying correctly on their .md documents
 - 2 pts for Rmarkdown
     - do they include a .md file along with their .Rmd assignment file?
     - do their plots all show correctly?
