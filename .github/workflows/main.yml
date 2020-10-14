@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add assignment/* :!assignment/*.html
+          git add --all -- ':!assignment/*.html'
           git commit -m 'Re-build Rmd' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
           
