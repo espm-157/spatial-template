@@ -8,6 +8,12 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(messages = FALSE, cache = FALSE)
+
+# remotes::install_deps()
+library(tmap)      #interactive maps, raster + vector layers
+library(terra)       # Successor to the raster library
+library(tidyverse)   # our old friend
+library(sf)          # to work with simple features (vector) data
 ```
 
 ## Learning objectives
@@ -42,13 +48,7 @@ Please take the time to read the introduction to this dataset [here](https://dsl
 **2.Normalized Difference Vegetation Index (NDVI)** (raster data)
 NDVI is used as proxy measure of vegetation health, cover and phenology (life cycle stage) over large areas. It is calculated using multiple bands from satellite images.
 
-```{r setup, include= FALSE}
-# install.packages(c("tmap", "raster", "sf"))
-library(tmap)      #interactive maps, raster + vector layers
-library(terra)       # Successor to the raster library
-library(tidyverse)   # our old friend
-library(sf)          # to work with simple features (vector) data
-```  
+
 
 # Exercise 1
 **Create a map which shows current (2019) mean NDVI across city redlining from the 1950s.**
